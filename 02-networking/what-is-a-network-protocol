@@ -1,0 +1,83 @@
+What Is a Network Protocol?
+
+A network protocol is a set of rules that devices on a network must follow when communicating with one another.
+
+In order for devices to understand each other, they must send and receive data according to the same protocol rules.
+
+A Simple Analogy:
+
+People need to use a common language to understand each other.
+
+For example, if two people speak Turkish, they can communicate easily. But if one speaks Turkish and the other speaks Japanese, communication becomes difficult.
+
+The same logic applies to devices. Computers, phones, servers, and routers use protocols to communicate with each other.
+
+What Do Protocols Do?
+
+Protocols define the answers to the following questions:
+
+How will data be sent?
+In what order will data be sent?
+How will the destination device be located?
+How will the connection be established?
+Will it be checked whether the data arrived?
+What will be done if an error occurs?
+How will secure communication be ensured?
+
+
+Examples of Network Protocols:
+
+HTTP: Used to access websites.
+HTTPS: Used to access websites securely.
+DNS: Converts domain names to IP addresses.
+TCP: Ensures reliable data transmission.
+UDP: Provides faster but less controlled data transmission.
+IP: Determines which address the data should go to.
+DHCP: Automatically assigns IP addresses to devices.
+SSH: Used to establish a secure connection to a remote device.
+FTP: Used for file transfer.
+Simple Example
+
+When I type google.com into my browser, multiple protocols are running in the background.
+
+Simple flow:
+
+DNS  → Finds the IP address corresponding to google.com.
+TCP  → Establishes a connection with the server.
+HTTPS → Allows me to access the website securely.
+IP   → Ensures that data reaches the correct address.
+Importance in Cybersecurity
+
+Understanding protocols is crucial in cybersecurity because network traffic occurs through these protocols.
+
+Without knowing the protocols, it becomes difficult to understand the following topics:
+
+Packet analysis with Wireshark
+Port scanning with Nmap
+Firewall rules
+Web security
+DNS attacks
+SSH security
+Network traffic analysis
+Detecting malicious traffic
+Summary in My Own Words
+
+A network protocol is a set of rules that enables devices to communicate with each other over a network. Each protocol performs a different function. Accessing websites, making DNS queries, sending files, or establishing a secure connection are all made possible by different protocols.
+
+Questions I Have:
+
+##What is the relationship between a protocol and a port?
+- A protocol determines how devices communicate. A port, on the other hand, determines which service on that device to communicate with.
+
+##How many protocols are running at the same time when I visit a website?
+- When visiting a website, multiple protocols work together in the background.
+
+For example, when I visit `https://google.com`, the domain name’s IP address is first resolved via DNS. Then, the IP protocol determines where the data should be sent. TCP establishes a connection with the server. Since the site uses HTTPS, TLS encrypts the connection. Finally, the web page is requested over HTTPS, and the server responds.
+
+Simple flow:
+
+DNS → IP → TCP → TLS → HTTPS
+
+Additionally, my device may use ARP on the local network to reach the router. Wi-Fi or Ethernet also provides the physical/network connection.
+
+In short, when visiting a website, it’s not just a single protocol but many protocols working together.
