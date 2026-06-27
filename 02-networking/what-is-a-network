@@ -1,0 +1,74 @@
+What Is a Network?
+
+It is the connection of two or more devices to exchange data or share resources.
+
+These devices can include computers, phones, printers, modems, and similar devices.
+
+
+
+What Is It Used For?
+
+Networks allow devices to communicate with each other and share resources.
+
+For example:
+
+Connecting to the Internet.
+Sharing files.
+Using a printer.
+Visiting a website.
+Playing online games .
+
+
+Simple Example:
+
+When my phone connects to the Wi-Fi network at home, it joins the home network. It then connects to the Internet via the modem/router.
+
+Simple diagram:
+
+Phone / Computer → Router → Internet → Server
+
+
+What Is Resource Sharing?
+
+Resource sharing is when devices on a network share certain capabilities.
+
+For example:
+
+A printer being used by more than one computer
+A file being shared with another computer on the network
+An Internet connection being used by all devices in the home
+
+Its Importance in Cybersecurity:
+
+Network knowledge is crucial in cybersecurity because most attacks, defenses, and analyses take place over the network.
+
+Network knowledge is necessary to understand the following topics:
+
+Nmap
+Wireshark.
+Port scanning.
+Firewall.
+DNS analysis.
+Web security.
+Server security.
+
+In My Own Words:
+
+A network is a structure that allows two or more devices to connect to each other and share resources or data. Connecting to the Internet, sending files, and accessing websites are all made possible by a network.
+
+
+Things on My Mind:
+
+## How do devices find each other on the network?
+- Devices on the same local network locate each other using their IP and MAC addresses. A device uses ARP to find out the MAC address of another device on the same network.
+
+## What Does a Router Do?
+- A router is a device that routes data between different networks. A home router allows devices on the local network to access the Internet. A computer sends data to the router to reach destinations outside its own network.
+
+## What Path Does Data from My Computer Take?
+
+- For example, when I want to visit google.com, my computer first uses DNS to find out the IP address of google.com. Then, if the destination IP address is not on my network, it sends the data to the router. The router forwards the data to the Internet service provider, and from there, it is transmitted to the destination server via other routers on the Internet.
+
+Simple path:
+
+Computer → Router → ISP → Internet → Destination Server.
