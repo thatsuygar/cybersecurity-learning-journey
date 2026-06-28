@@ -1,0 +1,84 @@
+How Do We Connect to a Network?
+Brief Description
+
+Connecting to a network means that a device joins a network environment and becomes able to communicate with other devices.
+
+This connection can be wireless via Wi-Fi or wired via an Ethernet cable.
+
+Connection Process
+
+When a device connects to a network, the following steps typically occur:
+
+Device → Wi-Fi/Ethernet → Router → Receives IP information → Joins the network → Connects to the Internet
+Information Received When Connecting to a Network
+
+When a device connects to a network, it typically receives the following information:
+
+IP address
+Subnet mask
+Default gateway
+DNS server
+IP Address
+
+The IP address is the device’s address on the network.
+
+Example:
+
+192.168.1.25
+
+This address allows the device to be identified on the network.
+
+Default Gateway
+
+The default gateway is the exit point the device uses to reach destinations outside its own network.
+
+In a home network, the default gateway is usually the router.
+
+Example:
+
+192.168.1.1
+
+When a computer wants to access the internet, it first sends the data to the default gateway.
+
+DNS
+
+DNS converts domain names into IP addresses.
+
+For example, I type the following into my browser:
+
+google.com
+
+DNS finds the IP address for this.
+
+DHCP
+
+DHCP is a system that automatically assigns IP addresses and network information to devices.
+
+When I connect to Wi-Fi at home, the IP address is usually assigned by the router’s DHCP system.
+
+This way, I don’t have to enter the IP address manually.
+
+Simple Example
+
+When my phone connects to Wi-Fi at home, it first establishes a connection with the router. The router then assigns an IP address to my phone. My phone uses the router as its default gateway and can find the IP addresses of websites using DNS information.
+
+Simple Diagram:
+
+Phone → Wi-Fi → Router → Internet
+Importance in Cybersecurity
+
+Understanding how a device connects to a network is important in cybersecurity.
+
+This is because the following topics are built on this foundation:
+
+Network discovery
+IP analysis
+DHCP attacks
+DNS analysis
+Rogue access point attacks
+Man-in-the-middle attacks
+Traffic monitoring with Wireshark
+Network scanning with Nmap
+Summary in My Own Words
+
+Connecting to a network involves a device joining the network via Wi-Fi or Ethernet and obtaining the necessary IP, gateway, and DNS information to communicate. With this information, the device can communicate with other devices on the local network and access the internet through the router.
