@@ -1,0 +1,81 @@
+Network Types: LAN, WAN, and WLAN
+
+
+Networks are classified into different types based on the area they cover and the method of connection. The most basic network types are LAN, WAN, and WLAN.
+
+What Is a LAN?
+
+LAN stands for Local Area Network.
+
+It is a type of network in which devices within a home, school, office, or small building are connected to one another.
+
+Examples:
+
+Computers at home connected to the same modem
+Computers in an office operating on the same network
+Devices in a school computer lab connected to the same network
+
+Simple diagram:
+
+Computer → Router/Switch → Printer
+Phone    → Router/Switch → Internet
+What Is a WLAN?
+
+WLAN stands for Wireless Local Area Network.
+
+It can be thought of as the wireless version of a LAN. It is typically set up using Wi-Fi.
+
+Example:
+
+Connecting my phone or laptop to the Wi-Fi network at home is an example of a WLAN.
+
+Simple diagram:
+
+Phone / Laptop → Wi-Fi → Router
+What is WAN?
+
+WAN stands for Wide Area Network.
+
+It is a type of network that connects networks located in different cities, countries, or remote regions.
+
+The Internet is one of the largest examples of a WAN.
+
+Simple illustration:
+
+Home Network → Router → Internet Service Provider → Internet
+The Difference Between LAN, WLAN, and WAN
+LAN = Local Area Network
+WLAN = Wireless Local Area Network
+WAN = Wide Area Network
+
+Example:
+
+When my phone connects to Wi-Fi at home, it uses a WLAN. Since my phone is on the same local network as other devices in the house, it is part of the LAN. When connecting to the Internet, it goes through the router to the WAN side.
+
+Importance in Cybersecurity
+
+Understanding network types is important in cybersecurity because each type of network poses different security risks.
+
+In LAN security:
+
+Protecting devices on the local network
+Preventing unauthorized devices from connecting to the network
+Switch, router, and firewall configurations are important.
+
+In WLAN security:
+
+Wi-Fi password
+Use of WPA2/WPA3
+Rogue access point attacks
+Monitoring Wi-Fi traffic are important topics.
+
+In WAN security:
+
+Threats originating from the Internet
+Firewall
+VPN
+DDoS attacks
+Remote connection security are important topics.
+Summary in My Own Words
+
+A LAN is a local network consisting of devices within a small area. A WLAN is the wireless (Wi-Fi) version of this local network. A WAN, on the other hand, is a wide-area network that connects remote networks to one another. When I use Wi-Fi at home, I’m on the WLAN; my home network is the LAN, and when I connect to the internet, I connect to the WAN.
